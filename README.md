@@ -39,7 +39,7 @@ Let's now start mining by running the nodes in seperate terminal windows with th
 
 ## Send a test transaction
 In this section, we will use the MyCrypto GUI wallet to connect to the node with the exposed RPC port.
-We will use the custom network mamadou, and include the chain ID 390, and use ETH as the currency.
+We will use the custom network name: mamadou with the same node name, and include the chain ID 390, and use ETH as the currency.
 We will open the Mycrypto app and change the network at the bottom left. We will add the custom network information that 
 we set in the genesis. Then, we will import the keystore file from the node1/keystore directory into MyCrypto. This will 
 import the private key and enable us to send a transaction from the node1 account to the node2 account.
