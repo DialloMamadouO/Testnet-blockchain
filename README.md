@@ -29,12 +29,17 @@ This step enables the nodes to be used to beging mining blocks.
 Let's now start minind by running the nodes in seperate terminal windows with the commands:
 
 -start node1
+
 ./geth --datadir node1 --mine --minerthreads 1 
 
 -start node2
+
 ./geth --datadir node2 --port 30304 --rpc --bootnodes "enode://ac261a3f6ba54c01b2df930c5257369eefe180f63082617cbde0099a95b326a3d478ff139
 8bbc95e85f3f5ed1fb72d5b98bd0e616b2880d872dfcef062b2def9@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 
+Adding the blockchain to Mycrypto for testing
+In this section, we will open the Mycrypto app and change network at the bottom left. We will add the custom network information that 
+we set in the genesis. 
 
 
 
